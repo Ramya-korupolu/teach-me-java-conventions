@@ -6,22 +6,22 @@ import static org.junit.Assert.*;
 
 public class PowerTest {
     @Test
-    public void one_raised_to_one_is_one() {
-        assertEquals(1, PowerFinder.calculatePower(1,1));
+    public void oneRaisedToOneIsOne() {
+        assertEquals(1, PowerFinder.calculatePower(1, 1));
     }
 
     @Test
-    public void two_raised_to_one_is_2() {
-        assertEquals(2, PowerFinder.calculatePower(2,1));
+    public void twoRaisedToOneIsTwo() {
+        assertEquals(2, PowerFinder.calculatePower(2, 1));
     }
 
     @Test
-    public void two_power_2_is_4() {
+    public void twoPowerTwoIsFour() {
         assertEquals(4, PowerFinder.calculatePower(2, 2));
     }
 
     @Test
-    public void three_power_2_is_Nine() {
+    public void threePowerTwoIsNine() {
         assertEquals(9, PowerFinder.calculatePower(3, 2));
     }
 }
