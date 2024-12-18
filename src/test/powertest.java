@@ -4,7 +4,7 @@ package powerpackage;
 import org.junit.Test;
 import static org.junit.Assert.*;  
 
-public class powertest {
+public class Powertest {
     @Test
     public void one_raised_to_one_is_one() {
         assertEquals(1, powerfinder.OF(1,1));
@@ -21,7 +21,7 @@ public class powertest {
     }
 
     @Test
-    public void power_of_2_and_3_Is_Nine() {
+    public void three_power_2_Is_Nine() {
         assertEquals(9, powerfinder.OF(3, 2));
     }
 }
